@@ -18,12 +18,13 @@ Additionally, the compiled code may have dependencies on Linux libraries and sys
 To run C++ programs on Windows, you need to recompile the source code using a C++ compiler like Turbo C. 
 This will generate a Windows-compatible executable (.exe) file.
 
-Similarly Executing a C++ program in a Windows environment and obtaining the resulting .exe file and attempting to run it directly on Linux would typically encounter compatibility issues. 
+Similarly Executing a C++ program in a Windows and obtaining the resulting .exe file and attempting to run it directly on Linux would typically encounter compatibility issues. 
 The .exe file format is specific to Windows and adheres to the Portable Executable (PE) standard. 
 Linux, on the other hand, utilizes the Executable and Linkable Format (ELF) for executables.
 Therefore the .exe file format would not run on Linux
 
 ELF: Executable and Linkable Format, used on Unix-like operating systems such as Linux.
+
 PE: Portable Executable, used on Windows operating systems. PE files include .exe (executable), .dll (dynamic link library), .sys (system file)
 
 
